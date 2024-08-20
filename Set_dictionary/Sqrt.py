@@ -1,11 +1,11 @@
 def square_matrix_simple(matrix):
     
   
-    result = []
+    res = []
     for row in matrix:
         new_row = [num**2 for num in row]
-        result.append(new_row)
-    return result
+        res.append(new_row)
+    return res
 
 
 matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
